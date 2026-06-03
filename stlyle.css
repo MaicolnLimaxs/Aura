@@ -1,1 +1,30 @@
-body{background-color: darkslateblue;}
+:root{
+    
+    
+    --cor-primaria: #86a4a4;
+    --cor-secundaria: #000000;
+    --cor-terciaria: aliceblue;
+
+
+}
+
+/*reset*/
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+    background-color: var(--cor-primaria);
+
+}
+
+
+
+
+
